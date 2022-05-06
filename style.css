@@ -1,0 +1,66 @@
+:root {
+  --rand: #98b8eb;
+}
+
+.randomcolorheader {
+  color: var(--rand);
+  text-decoration: none;
+}
+
+
+.bingoboard {
+  /*width:100%;*/
+  display:grid;
+  /*grid-template-columns:20% 20% 20% 20% 20%;*/
+  grid-template-columns:minmax(100px, 200px) minmax(100px, 200px) minmax(100px, 200px) minmax(100px, 200px) minmax(100px, 200px);
+  grid-template-rows:100px 100px 100px 100px 100px;;
+}
+
+.btn {margin: 5px;}
+
+
+.grey {
+  background:grey;
+  border:1px solid black;
+  padding:5px;
+  /*min-height:100px;*/
+  /*min-width:100px;*/
+}
+
+.white {
+  background:white;
+  border:1px solid black;
+  padding:5px;
+  /*min-height:100px;*/
+  /*min-width:100px;*/
+}
+
+table {
+  /*table-layout: fixed;*/
+  width: 100%;
+  margin-bottom:75px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+}
+
+/*.square {*/
+  /*width:20%;*/
+  /*position:relative;*/
+  /*border:1px solid white;*/
+/*}*/
+/*.square:after {*/
+  /*content: '';*/
+  /*display: block;*/
+  /*margin-top: 100%;*/
+/*}*/
+/*.square .content {*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*bottom: 0;*/
+  /*left: 0;*/
+  /*right: 0;*/
+/*}*/
